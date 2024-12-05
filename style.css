@@ -2,7 +2,103 @@
     color: gold;
     font-size: small;
 }
+.trash:hover{
+    color: red;
+}
 
-.img-1 :hover{
+
+
+.footer{
+    background-color: rgb(149, 194, 149);
+    justify-items: center;
+    align-items: center;
+}
+
+
+.footer-icons{
+    display: flex;
+}
+ .footer-icons.f-icons{
+    font-size: small;
+}
+
+.Subscribe{
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+.Subscribe:hover{
+    color: black;
+    background-color: white;
+}
+
+ .pictuer-1{
+    position: relative;
+}
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+.top-img:hover{
+    opacity: 1;
+}
+.social-icons{
+    position: relative;
+    text-align: center;
+   
+}
+.social-icons .a  .i{
+    position: absolute;
+    border: 10px;
+    background-color: green;
+    color: black;
     
 }
+
+
+
+
+
+.button-1{
+    color: white;
+    background-color: green;
+}
+.button-1:hover{
+    color: green;
+    background-color: white;
+}
+.button-2{
+    color: white;
+    background-color: rgb( 25, 135, 84);
+}
+.button-2:hover{
+    border-color: green;
+}
+.account-1{
+    border: 1;
+}
+.account-1{
+    border: 10px;
+}
+.accountbutton-1{
+    color: rgb( 25, 135, 84);
+    background-color: white;
+    width: 25;
+}
+.accountbutton-1:hover{
+    color: white;
+    background-color: rgb( 25, 135, 84);
+}
+/* .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+    rd
+} */
+ 
