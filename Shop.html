@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .parnet{
+            border: 10px solid green;
+            margin: 10px;
+            padding: 10px;
+            background-color: red;
+            width: 450px;
+            height: 450px;
+            position: relative;
+        }
+        .child-2{
+            
+            border: 2px;
+            padding: 5px;
+            margin: 4px;
+            background-color: burlywood;
+            width: 100px;
+            height: 100px;
+            
+            top: -40;
+        }
+        .child-1{
+            border: 2px;
+            padding: 5px;
+            margin: 4px;
+            background-color: greenyellow;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            
+        }
+        .child-1:hover{
+            position: relative;
+
+        }
+        .child-2{
+            opacity: 0;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
-    <p>this a shop for thefirst time i made this </p>
+    <div class="parnet">
+        <div class="child-1">gopi</div>
+        <div class="child-2">praneeth</div>
+    </div>
+<!-- this is for pratices only -->
+ <div class="twoimges">
+    <img src="./img/product-2-1.jpg" class="front-img" alt="">
+    <img src="./img/product-2-2.jpg" alt="">
+ </div>
+
+
+
+
 </body>
 </html>
