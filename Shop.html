@@ -4,61 +4,269 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .parnet{
-            border: 10px solid green;
-            margin: 10px;
-            padding: 10px;
-            background-color: red;
-            width: 450px;
-            height: 450px;
-            position: relative;
-        }
-        .child-2{
-            
-            border: 2px;
-            padding: 5px;
-            margin: 4px;
-            background-color: burlywood;
-            width: 100px;
-            height: 100px;
-            
-            top: -40;
-        }
-        .child-1{
-            border: 2px;
-            padding: 5px;
-            margin: 4px;
-            background-color: greenyellow;
-            width: 100px;
-            height: 100px;
-            position: relative;
-            
-        }
-        .child-1:hover{
-            position: relative;
-
-        }
-        .child-2{
-            opacity: 0;
-            position: relative;
-            z-index: 1;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <div class="parnet">
-        <div class="child-1">gopi</div>
-        <div class="child-2">praneeth</div>
-    </div>
-<!-- this is for pratices only -->
- <div class="twoimges">
-    <img src="./img/product-2-1.jpg" class="front-img" alt="">
-    <img src="./img/product-2-2.jpg" alt="">
- </div>
-
-
-
-
+    <div class="container pictuer-1">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <div class="card-2">
+                <img src="./img/product-1-1.jpg" class="card-img-top p-3 img-1" alt="...">
+                <div class="top-img-2">
+                  <img src="img/product-1-2.jpg" class="p-3 " alt="">
+                  <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                    <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                    <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                    <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                  </div>
+              </div>
+              </div>
+              
+              <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4>$238.85 <del>$245.8</del></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-2">  
+                <img src="img/product-2-1.jpg" class="card-img-top-2 p-3" alt="...">
+                <div class="top-img-2">
+                  <img src="img/product-2-2.jpg" class="p-3 " alt="">
+                  <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                    <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                    <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                    <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                <h5 class="card-title">Colorful Pattern Shirts</h5>
+                <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+               <h4>$238.85 <del> $245.8</del></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <div class="card-2">
+              <img src="./img/product-3-1.jpg" class="card-img-top p-3" alt="...">
+              <div class="top-img-2">
+                <img src="img/product-3-2.jpg" class="p-3 " alt="">
+                <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                  <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                  <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                  <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4>$238.85 <del>$245.8</del></h4>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-2">
+              <img src="./img/product-4-1.jpg"card-img-top p-3" alt="...">
+              <div class="top-img-2">
+                <img src="img/product-4-2.jpg" class="p-3 " alt="">
+                <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                  <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                  <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                  <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                </div>
+              </div>
+              </div>
+              <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4>$238.85 <del>$245.8</del></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card">
+                <div class="card-2">
+                <img src="./img/product-5-1.jpg" class="card-img-top p-3" alt="...">
+                <div class="top-img-2">
+                  <img src="img/product-5-2.jpg" class="p-3 " alt="">
+                  <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                    <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                    <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                    <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                  </div>
+                </div>
+              </div>
+                <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4>$238.85 <del>$245.8</del></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-2">
+                <img src="./img/product-6-1.jpg" class="card-img-top p-3" alt="...">
+                <div class="top-img-2">
+                  <img src="img/product-6-2.jpg" class="p-3 " alt="">
+                  <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                    <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                    <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                    <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                  </div>
+                </div>
+              </div>
+                <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4>$238.85 <del>$245.8</del></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-2">
+                <img src="./img/product-7-1.jpg" class="card-img-top p-3" alt="...">
+                <div class="top-img-2">
+                  <img src="img/product-7-2.jpg" class="p-3 " alt="">
+                  <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                    <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                    <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                    <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                  </div>
+                </div>
+              </div>
+                <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4>$238.85 <del >$245.8</del></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-2">
+                <img src="./img/product-8-1.jpg " class="card-img-top p-3" alt="...">
+                <div class="top-img-2">
+                  <img src="img/product-8-2.jpg" class="p-3 " alt="">
+                  <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                    <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                    <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                    <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                  </div>
+                </div>
+              </div>
+                <div class="card-body">
+                  <h6 class="text-secondary">Clothing</h6>
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                  <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                 <h4 class="text-success">$238.85 <del class="text-secondary">$245.8</del></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <div class="card-2">
+                  <img src="./img/product-9-1.jpg " class="card-img-top p-3" alt="...">
+                  <div class="top-img-2">
+                    <img src="img/product-9-2.jpg" class="p-3 " alt="">
+                    <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                      <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                      <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                      <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="card-body">
+                    <h6 class="text-secondary">Clothing</h6>
+                    <h5 class="card-title">Colorful Pattern Shirts</h5>
+                    <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                   <h4 class="text-success">$238.85 <del class="text-secondary">$245.8</del></h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-2">
+                  <img src="./img/product-10-1.jpg " class="card-img-top p-3" alt="...">
+                  <div class="top-img-2">
+                    <img src="img/product-10-2.jpg" class="p-3 " alt="">
+                    <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                      <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                      <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                      <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="card-body">
+                    <h6 class="text-secondary">Clothing</h6>
+                    <h5 class="card-title">Colorful Pattern Shirts</h5>
+                    <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                   <h4 class="text-success">$238.85 <del class="text-secondary">$245.8</del></h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-2">
+                  <img src="./img/product-11-1.jpg " class="card-img-top p-3" alt="...">
+                  <div class="top-img-2">
+                    <img src="img/product-11-2.jpg" class="p-3 " alt="">
+                    <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                      <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                      <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                      <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="card-body">
+                    <h6 class="text-secondary">Clothing</h6>
+                    <h5 class="card-title">Colorful Pattern Shirts</h5>
+                    <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                   <h4 class="text-success">$238.85 <del class="text-secondary">$245.8</del></h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-2">
+                  <img src="./img/product-12-1.jpg " class="card-img-top p-3" alt="...">
+                  <div class="top-img-2">
+                    <img src="img/product-12-2.jpg" class="p-3 " alt="">
+                    <div class=" position-absolute top-50 start-50 translate-middle three-icons">
+                      <a data-social="Quick View" href=""><i class="fa-regular fa-eye icons" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"></i></a>
+                      <a data-social="Add to Wishlist" href=""><i class="fa-regular fa-heart icons"></i></a>
+                      <a data-social="Compare" href=""><i class="fa-solid fa-arrow-right-arrow-left icons"></i></a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="card-body">
+                    <h6 class="text-secondary">Clothing</h6>
+                    <h5 class="card-title">Colorful Pattern Shirts</h5>
+                    <i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i><i class="fa-solid fa-star star-1"></i>
+                   <h4 class="text-success">$238.85 <del class="text-secondary">$245.8</del></h4>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </body>
 </html>
