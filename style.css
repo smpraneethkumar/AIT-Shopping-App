@@ -94,15 +94,7 @@
     color: white;
     background-color: rgb( 25, 135, 84);
 }
-/* .card{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    height: 400px;
-    rd
-} */
+
 
 /* this is the second imge  */
 .card-2{
@@ -184,3 +176,73 @@
 
 
 /* this for the second card and with the icons ends */
+
+
+/* the two imge ofs the deals starts */
+.two-cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 50px;
+
+
+    
+}
+.two-cards img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    padding-left: 30px;
+
+}
+
+/* in it the text putting  */
+.two-cards{
+    position: relative;
+}
+.deal-text{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+
+/* .two-cards{
+    position: relative;
+} */
+.deal-text-2{
+    position: absolute;
+    top: 0;
+    /* left: 100; */
+    right: 40;
+   
+}
+/* putting color for the offer in teh deals */
+.pink{
+    color: rgb(232, 79, 104);
+}
+
+/* the two imge of teh deals ends here */
+/* the edting the of the four icons stats */
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* the edting the of the four icons ends */
+/* the header icons  */
+.header-icons i{
+    margin: 5px;
+    font-size: large;
+}
+/* places come lord places help me for this  */
+.places-come{
+    position: absolute;
+    top: 0;
+    left: 50;
+}
+/* sfsdfgdggdfjdkjkjfkjsklkfjs */
+ul li  {
+    list-style: none;
+}
